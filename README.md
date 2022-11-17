@@ -8,3 +8,13 @@
 - Save  `days offset` to `enroll_data_offset_DP.csv` and 
 `enroll data` to `enroll_data_anon_DP.csv`
 - Upload `enroll_data_offset_DP.csv` and `enroll_data_anon_DP.csv` to Dropbox using `files_upload()`
+
+## Task 2
+
+- Install ANTs packages
+
+        conda install -c pnlbwh ants
+        pip install antspyx
+
+- Register the give image to the space of atlas using `ants.registration()`
+- Generate plots to view image
